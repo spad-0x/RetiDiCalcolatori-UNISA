@@ -1,5 +1,5 @@
-<h1 align="center">Reti di Calcolatori</h1>
-<h3 align="center">UNISA - Riassunto Corso a.a 2022</h3>
+<h1 align="center">Reti di Calcolatori - UNISA</h1>
+<h3 align="center">Riassunto</h3>
 
 
 
