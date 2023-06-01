@@ -21,7 +21,7 @@ Le informazioni sono rappresentate tramite i dati
 
 La comuniazione dati avviene attraverso un mezzo trasmissivo
 
-**SISTEMA DI COMUNICAZIONE**
+SISTEMA DI COMUNICAZIONE:
 * MESSAGGIO
 * MITTENTE
 * DESTINATARIO
