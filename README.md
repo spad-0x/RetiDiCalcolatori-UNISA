@@ -22,6 +22,7 @@ Le informazioni sono rappresentate tramite i dati
 La comuniazione dati avviene attraverso un mezzo trasmissivo
 
 <h4>SISTEMA DI COMUNICAZIONE:</h4>
+
 * MESSAGGIO
 * MITTENTE
 * DESTINATARIO
