@@ -21,7 +21,7 @@ Le informazioni sono rappresentate tramite i dati
 
 La comuniazione dati avviene attraverso un mezzo trasmissivo
 
-SISTEMA DI COMUNICAZIONE:
+**SISTEMA DI COMUNICAZIONE:**
 * MESSAGGIO
 * MITTENTE
 * DESTINATARIO
@@ -34,18 +34,20 @@ SISTEMA DI COMUNICAZIONE:
 
 
 **TIPO DI CONNESSIONE:**
-* PUNTO PUNTO
+<br>
+* **PUNTO PUNTO**
+<br>
 ![punto punto](src/punto-punto.png)
-* MULTIPUNTO
+* **MULTIPUNTO**
 ![ulti punto](src/multi-punto.png)
 
 
-**COMUNICAZIONE**
-* UNIDIREZIONALE
+**COMUNICAZIONE:**
+* **UNIDIREZIONALE**
 ![unidirezionale](src/unidirezionale.png)
-* BIDIREZIONALE ALTERNATA
+* **BIDIREZIONALE ALTERNATA**
 ![bidirezionale alternata](src/bidirezionale-alternata.png)
-* BIDIREZIONALE (FULL DUPLEX)
+* **BIDIREZIONALE (FULL DUPLEX)**
 ![bidirezionale](src/bidirezionale.png)
 
 
