@@ -3,15 +3,13 @@
 
 <p>
 
-	<p style="background-color: yellow;">ICT</p> --> Tecnologie per il trattamento e la trasmissione dell'informazione
+	**ICT** --> Tecnologie per il trattamento e la trasmissione dell'informazione
 
 	- CHE COS'é INTERNET?
 	Un'infrastruttura di comunicazione che consente il trafermento di dati tra dispositivi collegati alla rete (indipendentemente dal tipo di dispositivi e dal tipo di dsti digitali che si vuole trasmettere).
 
 	Il termine RETE è molto generico e si applica i tantissimi ambiti
-		<ul>
-			<li>Insieme di elementi (NODI) tra i quali sono definite delle relazioni (COLLEGAMENTI) </li>
-		</ul>
+			* Insieme di elementi (NODI) tra i quali sono definite delle relazioni (COLLEGAMENTI)
 
 	Una RETE DI CALCOLATORI connette dispositivi programmabili e può supportare applicazioni differenti e trasportare qualsiasi tipo di dati
 			 
