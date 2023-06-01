@@ -2,6 +2,11 @@
 <h3 align="center">Riassunto</h3>
 <h1></h1>
 
+
+
+
+
+
 **ICT** --> Tecnologie per il trattamento e la trasmissione dell'informazione
 
 - CHE COS'é INTERNET?
