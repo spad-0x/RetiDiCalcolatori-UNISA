@@ -28,18 +28,25 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 * MEZZO TRASMISSIVO
 * PROTOCOLLO
 
+![prova](src/sistema_di_comunicazione.png)
+
 \# Immagine della comunicazione mittente --- messaggio --- destinatario
 
 
 **TIPO DI CONNESSIONE:**
 * PUNTO PUNTO
-IMMAGINE
+![punto punto](src/punto-punto.png)
 * MULTIPUNTO
+![ulti punto](src/multi-punto.png)
+
 
 **COMUNICAZIONE**
 * UNIDIREZIONALE
+![unidirezionale](src/unidirezionale.png)
 * BIDIREZIONALE ALTERNATA
+![bidirezionale alternata](src/bidirezionale-alternata.png)
 * BIDIREZIONALE (FULL DUPLEX)
+![bidirezionale](src/bidirezionale.png)
 
 
 La **connessione diretta** (sia punto punto che multipunto) è adatta solo a reti piccole perché il numero di collegamenti è limitato al numero di porte presenti nel nodo, e non è **scalabile**
