@@ -28,18 +28,12 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 * MEZZO TRASMISSIVO
 * PROTOCOLLO
 
-![prova](src/sistema_di_comunicazione.png)
-
-\# Immagine della comunicazione mittente --- messaggio --- destinatario
+![sistema telecomunicazione](src/sistema_di_comunicazione.png)
 
 
 **TIPO DI CONNESSIONE:**
-
-
 * **PUNTO PUNTO**
 ![punto punto](src/punto-punto.png)
-
-
 
 * **MULTIPUNTO**
 ![ulti punto](src/multi-punto.png)
@@ -48,8 +42,10 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 **COMUNICAZIONE:**
 * **UNIDIREZIONALE**
 ![unidirezionale](src/unidirezionale.png)
+
 * **BIDIREZIONALE ALTERNATA**
 ![bidirezionale alternata](src/bidirezionale-alternata.png)
+
 * **BIDIREZIONALE (FULL DUPLEX)**
 ![bidirezionale](src/bidirezionale.png)
 
