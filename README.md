@@ -16,7 +16,7 @@ Una **RETE DI CALCOLATORI** connette dispositivi programmabili e può supportare
 La **COMUNICAZIONE** consente lo scambio di dati tra due dispositivi, può essere locale o remota(Tele-comunicazione) e coinvolge sia hardware che software.
 Le informazioni sono rappresentate tramite i dati
 
-**COMUNICAZIONE DATI = SCAMBIO DI DATI CHE RAPPRESENTANO L'INFORMAZIONE**
+**COMUNICAZIONE DATI = SCAMBIO DI DATI CHE RAPPRESENTANO L'INFORMAZIONE** <br>
 															   il formato dei dati dipende dal mezzo
 															  /
 La comuniazione dati avviene attraverso un mezzo trasmissivo〈
