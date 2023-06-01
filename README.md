@@ -51,12 +51,11 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 * **BIDIREZIONALE (FULL DUPLEX)**
 ![bidirezionale](src/bidirezionale.png)
 
-
 La **connessione diretta** (sia punto punto che multipunto) è adatta solo a reti piccole perché il numero di collegamenti è limitato al numero di porte presenti nel nodo, e non è **scalabile**
 
 La **connessione "indiretta"** permette di creare reti "grandi" ed economiche
 img
-
+![nodi di commutazione](src/nodi-commutazione.png)
 É composta da 2 tipi di nodi
 * Terminali
 * Commutazione
@@ -64,6 +63,73 @@ img
 	* hanno la funzione di smistare il traffico
 	* non ci sono utenti su questi nodi
 
+
+<h3>RETI A COMMUTAZIONE</h3>
+
+L' insieme di switch costituisce una rete a commutazione:
+* La rete utilizzata per creare connessioni tra diversi utenti
+* Le risorse della rete sono condivise dai vari utenti
+* La rete commuta tra una comunicazione e l'altra
+É una soluzionepiù economica e scalabile che consente un uso efficiente della rete
+2 tecniche di commutazione:
+* CIRCUITO (telefonico)
+* PACCHETTO (postale)
+
+<h3>CLASSIFICAZIONE DELLE RETI</h3>
+La classificazione avviene in base all'area coperta (variano le scelte tecnologiche e progettuali)
+
+<h4>LAN (Local Area Network)</h4>
+
+* Copre l'area di un edificio o di un campus
+* es. comunicazione ad eccesso multiplo con doppino telefonico
+
+<h4>MAN (Metropolitan Area Network)</h4>
+
+* Copre l'area di una città
+* Comunicazione indiretta con fibra ottica
+
+<h4>WAN (Wide Area Network)</h4>
+
+* Copre l'area di una regione o Nazione
+* Comunicazione indiretta con fibra ottica o trasmissione a microonde (es. satelliti)
+
+
+
+
+<h3>COMUNICAZIONE UNIVERSALE</h3>
+Ogni nodo può comincare solo con altri nodi connessi alla stessa rete
+Gli utenti richiedono un servixio di comunicazione universale(connessione con ogni altro utente indipendentemente dalla posizione , dal tipo di rete e del tipo di software utilizzato)
+Come si ottiene? ↓
+
+<h3>INTERNETWORKING</h3>
+Una interrete (Internet) è una rete di reti
+
+* I suoi nodi sono reti (possibilmete di tipo diverso) -> definizione Ricorsiva
+* Le reti sono collegate tramite router (Gateway)
+![internetworking](src/internetworking.png)
+
+
+
+L'internetworking consente di comunicare con utenti collegate ad altre reti
+Il software d i rete rende trasparente all'utente le differenze tra reti fisiche
+Il software applicativo è indipendente dalla tecnologia hardware utilizzata (lo stesso programma può essere usato su qualsiasi rete)
+**Internet** è l'esempio più conosciuto di inter-rete. Ci sono modi di descrivere questo sistema estremamente complesso:
++ in termini di suoi componenti
++ in termini di servizi offerti agli utenti
+
+
+
+<h3>HOSTS</h3>
+Sono dispositivi in grando di eseguire elaborazioni e collegati alla rete (PC, SERVER, LAPTOP, SMARTPHONE) su cui operano gli utenti (end-system). Vengono utilizzati per eseguire applicazini di rete.
+
+
+<h3>LINEE DI COMUNICAZIONE</H3>
+
+
+<h3>DISPOSITIVI DI COMMUTAZIONE</H3>
+
+
+<h4>COME AVVIENE LA TRASMISSIONE</H4>
 
 
 
