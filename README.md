@@ -1,6 +1,6 @@
 <h1 align="center">Reti di Calcolatori - UNISA</h1>
 <h3 align="center">Riassunto</h3>
-
+<h1></h1>
 
 **ICT** --> Tecnologie per il trattamento e la trasmissione dell'informazione
 
