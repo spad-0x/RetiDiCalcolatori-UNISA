@@ -17,10 +17,42 @@ La **COMUNICAZIONE** consente lo scambio di dati tra due dispositivi, può esser
 Le informazioni sono rappresentate tramite i dati
 
 **COMUNICAZIONE DATI = SCAMBIO DI DATI CHE RAPPRESENTANO L'INFORMAZIONE** <br>
-															   il formato dei dati dipende dal mezzo
-															  /
-La comuniazione dati avviene attraverso un mezzo trasmissivo〈
-															 \\
+
+
+La comuniazione dati avviene attraverso un mezzo trasmissivo
+
+**SISTEMA DI COMUNICAZIONE**
+* MESSAGGIO
+* MITTENTE
+* DESTINATARIO
+* MEZZO TRASMISSIVO
+* PROTOCOLLO
+
+\# Immagine della comunicazione mittente --- messaggio --- destinatario
+
+
+**TIPO DI CONNESSIONE:**
+* PUNTO PUNTO
+IMMAGINE
+* MULTIPUNTO
+
+**COMUNICAZIONE**
+* UNIDIREZIONALE
+* BIDIREZIONALE ALTERNATA
+* BIDIREZIONALE (FULL DUPLEX)
+
+
+La **connessione diretta** (sia punto punto che multipunto) è adatta solo a reti piccole perché il numero di collegamenti è limitato al numero di porte presenti nel nodo, e non è **scalabile**
+
+La **connessione "indiretta"** permette di creare reti "grandi" ed economiche
+img
+
+É composta da 2 tipi di nodi
+* Terminali
+* Commutazione
+	* collegamenti ad almeno 2 linee
+	* hanno la funzione di smistare il traffico
+	* non ci sono utenti su questi nodi
 
 
 
