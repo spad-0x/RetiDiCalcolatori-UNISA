@@ -31,7 +31,7 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 ![sistema telecomunicazione](src/sistema_di_comunicazione.png)
 
 
-</h4>TIPO DI CONNESSIONE:</h4>
+<h4>TIPO DI CONNESSIONE:</h4>
 
 * **PUNTO PUNTO**
 ![punto punto](src/punto-punto.png)
