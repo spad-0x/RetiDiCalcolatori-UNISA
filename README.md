@@ -37,12 +37,11 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 
 
 * **PUNTO PUNTO**
-
 ![punto punto](src/punto-punto.png)
 
 
-* **MULTIPUNTO**
 
+* **MULTIPUNTO**
 ![ulti punto](src/multi-punto.png)
 
 
