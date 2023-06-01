@@ -21,7 +21,7 @@ Le informazioni sono rappresentate tramite i dati
 
 La comuniazione dati avviene attraverso un mezzo trasmissivo
 
-<h2>SISTEMA DI COMUNICAZIONE:</h2>
+<h5>SISTEMA DI COMUNICAZIONE:</h5>
 * MESSAGGIO
 * MITTENTE
 * DESTINATARIO
@@ -31,7 +31,7 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 ![sistema telecomunicazione](src/sistema_di_comunicazione.png)
 
 
-</h2>TIPO DI CONNESSIONE:</h2>
+</h5>TIPO DI CONNESSIONE:</h5>
 
 * **PUNTO PUNTO**
 ![punto punto](src/punto-punto.png)
@@ -40,7 +40,7 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 ![ulti punto](src/multi-punto.png)
 
 
-<h2>COMUNICAZIONE:</h2>
+<h5>COMUNICAZIONE:</h5>
 
 * **UNIDIREZIONALE**
 ![unidirezionale](src/unidirezionale.png)
