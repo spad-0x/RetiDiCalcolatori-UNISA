@@ -34,11 +34,15 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 
 
 **TIPO DI CONNESSIONE:**
-<br>
+
+
 * **PUNTO PUNTO**
-<br>
+
 ![punto punto](src/punto-punto.png)
+
+
 * **MULTIPUNTO**
+
 ![ulti punto](src/multi-punto.png)
 
 
