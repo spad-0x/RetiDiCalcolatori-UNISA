@@ -367,8 +367,9 @@ La maggior parte dei Router viaggia con una modalità di trasmissione **STORE an
 
 $\frac{L}{R}$
 
-L = lunghezza del messaggi in bit
-R = numeor di bit/s(velocità)
+${L}$ = lunghezza del messaggi in bit
+
+${R}$ = numeor di bit/s(velocità)
 
 <h4>LATENZA COMPLESSIVA</h4>
 
