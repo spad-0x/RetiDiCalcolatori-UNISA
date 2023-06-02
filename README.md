@@ -3,10 +3,10 @@
 <h3>INTRODUZIONE ALLE RETI</h3>
 <br>
 
-**ICT** --> Tecnologie per il trattamento e la trasmissione dell'informazione
+**ICT** Tecnologie per il trattamento e la trasmissione dell'informazione
 
-\- CHE COS'é INTERNET?
-- Un'infrastruttura di comunicazione che consente il trafermento di dati tra dispositivi collegati alla rete (indipendentemente dal tipo di dispositivi e dal tipo di dsti digitali che si vuole trasmettere).
+CHE COS'é INTERNET?
+- Un'infrastruttura di comunicazione che consente il trafermento di dati tra dispositivi collegati alla Rete (indipendentemente dal tipo di dispositivi e dal tipo di dati digitali che si vuole trasmettere).
 
 Il termine **RETE** è molto generico e si applica i tantissimi ambiti
 * Insieme di elementi (**NODI**) tra i quali sono definite delle relazioni (**COLLEGAMENTI**)
@@ -55,8 +55,10 @@ La comuniazione dati avviene attraverso un mezzo trasmissivo
 La **connessione diretta** (sia punto punto che multipunto) è adatta solo a reti piccole perché il numero di collegamenti è limitato al numero di porte presenti nel nodo, e non è **scalabile**
 
 La **connessione "indiretta"** permette di creare reti "grandi" ed economiche
-img
+
+
 ![nodi di commutazione](src/nodi-commutazione.png)
+
 É composta da 2 tipi di nodi
 * Terminali
 * Commutazione
@@ -71,6 +73,7 @@ L' insieme di switch costituisce una rete a commutazione:
 * La rete utilizzata per creare connessioni tra diversi utenti
 * Le risorse della rete sono condivise dai vari utenti
 * La rete commuta tra una comunicazione e l'altra
+
 É una soluzionepiù economica e scalabile che consente un uso efficiente della rete
 2 tecniche di commutazione:
 * CIRCUITO (telefonico)
