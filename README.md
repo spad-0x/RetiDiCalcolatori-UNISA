@@ -373,7 +373,8 @@ ${R}$ = numeor di bit/s(velocità)
 
 <h4>LATENZA COMPLESSIVA</h4>
 
-	N*(L/R)
+$N \cdot \left(\frac{L}{R}\right)$
+
 Dove **N** è il numero di linee di collegamento da attraversare. A questo andrebbe sommato il tempo che il Router impiefa per leggere la desinaon e decide il percorso.
 Se ci sono più pacchetti so forma una cosa e il temo aumento perché ogni pacchetto aspetta il suo turno(tempo di accumulo).
 Se la coda si allunga troppo, c'è una situazione di stallo totale(**CONGESTIONE**).
