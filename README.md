@@ -365,7 +365,7 @@ La maggior parte dei Router viaggia con una modalità di trasmissione **STORE an
 
 <h4>LATENZA DI TRASMISSIONE</h4>
 
-	$\frac{L}{R}$
+$\frac{L}{R}$
 
 L = lunghezza del messaggi in bit
 R = numeor di bit/s(velocità)
