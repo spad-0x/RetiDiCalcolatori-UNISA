@@ -144,12 +144,13 @@ Permettono la comunicazione indiretta (collegamento tra dispositivi per mezzo di
 
 
 <h3>COME AVVIENE LA TRASMISSIONE?</H3>
-	- Spedendo i Pacchetti (con dim. MAX e dim. STANDARD)
-	- Bisogna conoscere l'indirizzo di destinazione
-	- Se la dimensione del pacchetto è > della dim. MAX, il messaggio viene diviso su più pacchetti che vengono inviati, ognuno dei quali conterrà un blocco di dati. Ogni pacchetto viene trattato in modo indipendente dagli altri (possono fare strade diverse)
-	-Il destinatario deve ricostruire il messaggio originale
 
-	Nel passaggio da una rete all'altra il formato dei dati può dipendere dalla rete su cui viaggiano
+- Spedendo i Pacchetti (con dim. MAX e dim. STANDARD)
+- Bisogna conoscere l'indirizzo di destinazione
+- Se la dimensione del pacchetto è > della dim. MAX, il messaggio viene diviso su più pacchetti che vengono inviati, ognuno dei quali conterrà un blocco di dati. Ogni pacchetto viene trattato in modo indipendente dagli altri (possono fare strade diverse)
+- Il destinatario deve ricostruire il messaggio originale
+
+Nel passaggio da una rete all'altra il formato dei dati può dipendere dalla rete su cui viaggiano
 
 Gli host non accedono direttamente alla rete internet (troppo costoso), ma accedono ai servizi di un **ISP** (Internet Service Provider) cioé aziende o enti che smistano i pacchetti e li inviano tramite Internet.
 - Gli **ISP** sono interconnessi e organizzati gerarchicamente
