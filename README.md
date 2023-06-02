@@ -137,16 +137,63 @@ Permettono la comunicazione indiretta (collegamento tra dispositivi per mezzo di
 
 2 Categorie (entrambe smistano pacchetti sulla base dell'indirizzo di destinazione)
 
-* SWITCH:
-	* * Consente comunicazioni tra 2 nodi della stessa rete
-* ROUTER:
-	* * Smista i pacchetti tra nodi di rete diverse
+* **SWITCH:**
+	* Consente comunicazioni tra 2 nodi della stessa rete
+* **ROUTER:**
+	* Smista i pacchetti tra nodi di rete diverse	
 
 
-<h4>COME AVVIENE LA TRASMISSIONE</H4>
+<h3>COME AVVIENE LA TRASMISSIONE?</H3>
+	- Spedendo i Pacchetti (con dim. MAX e dim. STANDARD)
+	- Bisogna conoscere l'indirizzo di destinazione
+	- Se la dimensione del pacchetto è > della dim. MAX, il messaggio viene diviso su più pacchetti che vengono inviati, ognuno dei quali conterrà un blocco di dati. Ogni pacchetto viene trattato in modo indipendente dagli altri (possono fare strade diverse)
+	-Il destinatario deve ricostruire il messaggio originale
+
+	Nel passaggio da una rete all'altra il formato dei dati può dipendere dalla rete su cui viaggiano
+
+Gli host non accedono direttamente alla rete internet (troppo costoso), ma accedono ai servizi di un **ISP** (Internet Service Provider) cioé aziende o enti che smistano i pacchetti e li inviano tramite Internet.
+- Gli **ISP** sono interconnessi e organizzati gerarchicamente
+	- Locali
+	- Regionali
+	- Nazionali
+	- Internazionali / Globali
+
+
+![ISP](src/ISP.png)
+
+La gestione degli ISP avviene tramite un network **Access Point(NAP)** ovvero una sta za fisica in cui ci sono diversi router che consentono lo scambio di Pacchetti tra ISP differenti
+
+<h3>PERCORSI</h3>
+
+- Gli ISP sono autonomi nella gestione della loro rete, ma per garantire l'interoperabilità, devono accodarsi per utilizzare gli stessi **PROTOCOLLI** per l'invio, l'inoltro e la ricezione dei Pacchetti.
+- Esisono centinaia di protocolli Internet -> definiti come **TCP/IP** dal nome dei 2 protocolli principali.
+- I protocolli **STANDARD** vengono accettati da tutti gli utilizzaotri della rete.
+- Gli Standard di Internet sono definiti dall'IETF, definiti come RFC(documenti testuali che danno una descrizione funzionale su cosa deve fare il protocollo e come deve funzionare)
+**COME NASCE UN RFC?**
+- Si propone un "Draft di Internet", se approvato diventa un RFC
+
+**ALTRI STANDARD**
+- Definiti da altri enti
+- IEEE definisce gli standard reativi a reti LAN/MAN;
+	- commissione 802 ha definito certi standard con nome 802.xx;
+	- comprendono Ethernet(802.3), Wi-Fi(802.11);
+
+
+<h3>INTERNET COME PIATTAFORMA DI SERVIZI</h3>
+
+Internet fornisce servizi alle applicazioni (social, messaggistica istantanea, ecc). Queste applicazioni sono dette **APPLICAZIONI DISTRIBUITE**. Le Applicazioni distribuite sono esclusivamente eseguite sugli host. Router e Switch contribuiscono alla trasmissione dei dati ma mai intervengno nell'esecuzione dell'Applicazione.
+- Un'Applicazione distribuita consiste di diversi moduli software in esecuizione su host differenti. (possono essere scritti anche in linguaggi di programmazione differenti).
+- Il sistema operativo di un host collegato alla Rete fornisce un **API**: 
+	- É un insieme di regole
 
 
 
 
+
+
+
+
+	
+	 
 
 <a href="https://www.buymeacoffee.com/leonardospadoni"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="leonardospadoni" /></a></p><br><br>
