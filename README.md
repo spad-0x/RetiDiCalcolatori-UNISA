@@ -126,6 +126,10 @@ Sono dispositivi in grando di eseguire elaborazioni e collegati alla rete (PC, S
 
 <h3>LINEE DI COMUNICAZIONE</H3>
 
+Linee su cui viagiano i dati. Sono mezzi fisici --> conduttori. Mezzi diversi hanno tassi di **(Larghezza di banda)** trasmissione diversi. Le linee più comuni: il doppino, cavo coassiale, fibra ottica, wireless, satellite.
+
+
+
 
 <h3>DISPOSITIVI DI COMMUTAZIONE</H3>
 
