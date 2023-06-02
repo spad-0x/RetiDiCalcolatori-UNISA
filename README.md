@@ -254,9 +254,88 @@ Il modemè stato modificato agendo su tutta la banda del doppino(prima ne veniva
 
 **STANDARD DSL:**
 Definiti da ITU:
+- ADSL (upload < download)
+	- Pensata per strutture residenziali che richiedono servizi ma mai li forniscono
+- VDSL (upload ≦ download, alta velocità)
+	- Ha limiti più stringenti sulla distanza dal DSLAM, ma garantisce migliore velocità.(Se la distanza è > 1,6 Km la velocità è come quella di un ADSL).
+
+Le prestazioni della linea dipendono da:
+- tipo/qualità del cavo
+- distanza dal DSLAM
+
+**ACCESSO CABLE-TV**
+- è un canale ad accesso ondiviso
+- la larghzza di banda è più ampia
+- la rete della tv funge da sip
+
+
+
+<h3>FTTX:</h3>
+
+**(Fibra Ottica)** -> prestazioni più elaborate dell'ADSL, larghezza di Banda maggiore.
+<h4>FTTX</h4> -> Segnale fibra fino a x (distanza).
+
+La FTTX sono fondamentali oer la realizzaione delle NGN(Next Generation Networks)
+Ci sono vari tipo di FTTX:
+- **FTTN** = più economico, la fibra arriva fino alla cenrale(il resto della trasmiossione avviene con il doppino telefonico)
+- **FTTC** = fiber to the cabinet, la fibra termina all'armadio(circa < 300m dal destinatario)
+- **FTTS** = termina al distributore di quartiere (circa 200m dal destinatario)
+- **FTTB** = termina all'ingresso dell'edificio.
+- **FTTM** = arriva proprio al destinatario, è òa più costosa. La scheda di Rete del Rx(destinatario) deve essere adattata a riceveresegnali elettromagnetici, oltre che radio(previsti dalle trasmissioni con doppino telefonico)
+
+**PRESTAZIONI** -> 100 Mbps in upstream
+La soluzione adottata in Italia è **FTTC+VDSL**
+- La fibra è condotta fino agli armadi in strada
+- il DSLAM è posizionato nell'armadio
+
+
+<h3>ARCHITETTURA DELLE FTTX</H3>
+
+**AON** -> simili a Ethernet
+**PON** -> ogni abitazione/cabinet ha un ONT(Optical Network Terminator) connesso ad uno Splitter(Separator Ottico) di quartiere ONU(Optical Network Unit) con fibra ottica dedicata.
+Vengono separati i segnali luminosi in Trasmissione, il Ricevitore li mette insieme com un unico segnali luminoso.
+
+<h3>ALTRE RETI DI ACCESSO:</h3>
+La maggior parte delle aziende utilizza le reti **LAN** -> libere da vincoli governativi
+
+I tipi di LAN più usati sono:
+- **Ethernet (802.3)**
+	- basate su doppino telefonico
+- **Wi-Fi (802.11)**
+	- Collegamento wireless, i dispositici sono collegati ad un Access Point.
+
+É necessario in entrambi i casi stabilire un protocollo per il quale non ci sono interferenze tra i dispositivi collegati alla Rete.
+Le Reti LAN iniziano a diffondersi anche in ambito domestico.
+
+<h4>RETI WIRELESS</h4>
+VANTAGGIO -> mobilità
+SVANTAGGIO -> prestazioni più basse, copertura minore(risolvibile con extender)
+
+<h4>NELLE CASE</h4>
+
+![wireless nelle case](src/wireless-nelle-case.png)
+
+Combinazione tra LAN e DSL
+
+Gli smartphone possono connettersi in maniera indipendente tramite l'ausilio di infrastrutture dedicate.
+
+I tipi di reti sono **3G, 4G, 5G**
+- 3G = commutazione di pacchetto
+- 4G = LTE e LTE advanced
+- 5G = prevosto dal 2020/ supporto ad IoT
+
+
+<h3>MEZZI TRASMISSIVI</h3>
+
+<h4>VINCOLATI</h4> -> c'è un mezzo fisico
+
+- **doppino telefonico** (2 fili, 1 per il seganle, 1 per l'informazione); i fili sono intrecciati per gestire le interferenze(vengono amplificati o attenuati contemporaneamente, così da non cambiare il risultato finale)
+- **cavo coassiale**: filo di rame interno a filo isolante
+- **fibra ottica**: conduce impulsi di luce a non onde elettromagetiche. É immune da interferenze elettromagnetiche, ha una larga copertura e maggiore velocità.
+
+<h4>NON VINCOLATI</h4>
+
 -
-
-
 
 
 
