@@ -336,7 +336,50 @@ I tipi di reti sono **3G, 4G, 5G**
 
 <h4>NON VINCOLATI</h4>
 
--
+- canali radio terrestri: le prestazioni dipendono dall'ambiente propagativo e dalla distanza, non ci sono costi di installazione e connetticita ad altri utenti.
+- cnaali radio satellitari: trasmissione a microonde mediante antenna satelitare direttiva -> se sposto l'antella non prende più.
+
+
+<h3>IL COERE</h3>
+Serie di Router che si scambiano pacchetti.
+
+Elementi chiave:
+- commutazione di pacchetto
+- multiplexing
+- inoltro ed instradamento
+
+![core](src/core.png)
+
+<h4>COMMUTAZIONE DI PACCHETTO</h4>
+Ogni pacchetto viaggia indipendentemente dagli altro. Il mittendte ha diviso il messaggio oin più pacchetti. 
+
+Ogni Router legge l'indirizzo di destinazione del pacchetto da inviare e devide come inviarlo(decide il percorso).
+
+La maggior parte dei Router viaggia con una modalità di trasmissione **STORE and FORWARD**(Possono trasmettere un pacchetto solo dopo averlo completamente ricevuto, prima memorizzano e poi inoltrano).
+
+<h4>LATENZA DI TRASMISSIONE</h4>
+
+	L/R
+
+L = lunghezza del messaggi in bit
+R = numeor di bit/s(velocità)
+
+<h4>LATENZA COMPLESSIVA</h4>
+
+	N*(L/R)
+Dove **N** è il numero di linee di collegamento da attraversare. A questo andrebbe sommato il tempo che il Router impiefa per leggere la desinaon e decide il percorso.
+Se ci sono più pacchetti so forma una cosa e il temo aumento perché ogni pacchetto aspetta il suo turno(tempo di accumulo).
+Se la coda si allunga troppo, c'è una situazione di stallo totale(**CONGESTIONE**).
+In caso di CONGESTIONE, l'ultimo pacchetto che arriva viene eliminato se la coda è occupata.
+Il numero di pacchetti che possono stare in coda dipende dalla memoria del Router.
+Se il pacchetto iinviato per ultimo è di tipo premium, viene eliminato il penultimo.
+
+<h3>INOLTRO E INSTRADAMENTO(FORWARDING E ROUTING)</h3>
+
+É il modo con cui il pachetto decide il percorso. Si basa su tabelle. Se arriva un pacchetto codificato in modo divetso da quelli definiti dalla tabella, lo butta e avvisa l'utente.
+L'Amministratore di Rete deve evitare che capiti.
+Al momento dell'accensione del Router viene caricato un File dall'Amministratore di Rete e parte un protocollo che prevede che il Router si scambino informazini, quindi la tabella viene aggiornata dinamicamente, per ricalcolare prcorsi in casi di modifiche o guasti e in corso di congestione.
+
 
 
 
