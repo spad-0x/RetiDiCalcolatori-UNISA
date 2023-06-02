@@ -74,7 +74,8 @@ L' insieme di switch costituisce una rete a commutazione:
 * Le risorse della rete sono condivise dai vari utenti
 * La rete commuta tra una comunicazione e l'altra
 
-É una soluzionepiù economica e scalabile che consente un uso efficiente della rete
+É una soluzione più economica e scalabile che consente un uso efficiente della rete.
+
 2 tecniche di commutazione:
 * CIRCUITO (telefonico)
 * PACCHETTO (postale)
@@ -117,7 +118,9 @@ Una interrete (Internet) è una rete di reti
 L'internetworking consente di comunicare con utenti collegate ad altre reti
 Il software d i rete rende trasparente all'utente le differenze tra reti fisiche
 Il software applicativo è indipendente dalla tecnologia hardware utilizzata (lo stesso programma può essere usato su qualsiasi rete)
-**Internet** è l'esempio più conosciuto di inter-rete. Ci sono modi di descrivere questo sistema estremamente complesso:
+**Internet** è l'esempio più conosciuto di inter-rete. 
+
+Ci sono modi di descrivere questo sistema estremamente complesso:
 + in termini di suoi componenti
 + in termini di servizi offerti agli utenti
 
@@ -277,7 +280,7 @@ Le prestazioni della linea dipendono da:
 <h3>FTTX:</h3>
 
 **(Fibra Ottica)** -> prestazioni più elaborate dell'ADSL, larghezza di Banda maggiore.
-<h4>FTTX</h4> -> Segnale fibra fino a x (distanza).
+**FTTX** -> Segnale fibra fino a x (distanza).
 
 La FTTX sono fondamentali oer la realizzaione delle NGN(Next Generation Networks)
 Ci sono vari tipo di FTTX:
