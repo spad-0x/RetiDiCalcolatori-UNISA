@@ -184,7 +184,49 @@ La gestione degli ISP avviene tramite un network **Access Point(NAP)** ovvero un
 Internet fornisce servizi alle applicazioni (social, messaggistica istantanea, ecc). Queste applicazioni sono dette **APPLICAZIONI DISTRIBUITE**. Le Applicazioni distribuite sono esclusivamente eseguite sugli host. Router e Switch contribuiscono alla trasmissione dei dati ma mai intervengno nell'esecuzione dell'Applicazione.
 - Un'Applicazione distribuita consiste di diversi moduli software in esecuizione su host differenti. (possono essere scritti anche in linguaggi di programmazione differenti).
 - Il sistema operativo di un host collegato alla Rete fornisce un **API**: 
-	- É un insieme di regole
+	- É un insieme di regole che il TX(mittente) deve eseguire affinchè i dati vengono ricevuti.
+
+
+
+<h3>COS'É UN PROTOCOLLO</h3>
+
+Insieme di regole che definiscono il formato e l'ordine dei messaggi che vengono scambiati in un'interazione.
+- Specifica ciò che deve fare il nodo per ogni interazione.
+
+<h3>ARCHITETTURA DI INTERNET</h3>
+Struttura a 2 livelli:
+
+![architettura di internet](src/architettura-1-livelli.png)
+
+- Insieme di sistemi terminali/Periferici.
+- Un CORE che permette ai dispositivi terminali di comunicare.
+- Reti di Accesso che consentono ai dispositivi terminali di collegarsi a internet.
+
+
+<h3>SISTEMI PERIFERICI</h3>
+
+**HOSTS**
+- CLIENT
+	- Richiede un servizio tramite le Rete
+	- Hai un interfaccia utente
+- SERVER - Fornisce il servizio al client
+	- Si interfaccia solo con i Client(NO UTENTI)
+	- Deve poter gestire grandi quantità di richieste (quando capita, il server smista il lavoro con altri server)
+
+I **server** sono collocati in un **DATA-CENTER**, che permette di garantire migliore affidabilità, disponibilità e semplifica l'ammnistrazione.
+
+
+<h3>RETI DI ACCESSO:</h3>
+
+- Una rete di Accesso è la rete che connette fisicamente un sistema perifercio al suo edge-Router (primo Router incontrato nel percorso della sorgete alla destinazione collocata in un'altra Rete di Accesso)
+- Nello scegliere il tipo di Rete di Accesso a cui collegarsi bisogna tener conto di :
+	- costo
+	- larghezza di Banda disponibile
+	- Rete dedicata o condivisa
+
+
+
+<h3>ACCESSO RESIDENZIALE:</h3>
 
 
 
@@ -193,7 +235,6 @@ Internet fornisce servizi alle applicazioni (social, messaggistica istantanea, e
 
 
 
-	
-	 
+
 
 <a href="https://www.buymeacoffee.com/leonardospadoni"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="leonardospadoni" /></a></p><br><br>
