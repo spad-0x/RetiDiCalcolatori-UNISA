@@ -228,6 +228,33 @@ I **server** sono collocati in un **DATA-CENTER**, che permette di garantire mig
 
 <h3>ACCESSO RESIDENZIALE:</h3>
 
+Gli accessi Residenziali a larga Banda si sviluppano su 2 Tecnologie:
+- **DSL** (fornito dall'Operatore Telefonico)
+- **CABLE-TV** (fornito dall'operatote del servizio TV via cavo).
+**CARATTERISTICA COMUNE:** si usa una Rete già esistente.
+
+<h4>ACCESSO DSL</h4>
+
+- Agisce da ISP Locale
+- Utilizza la rete Telefonica già esistente. I dati venivano trasformati(modulati) in segnali audio perché erano gli unici segnali interpretabili dalla Rete.
+**PROBLEMA:** non si poteva navigare e telefonare contemporaneamente
+**SOLUZIONE:** la larghezza di Banda è stata divisa in 2 sottobande, una usata per la Rete Telefonica, l'altra usata per Internet. 
+
+![DSL](src/DSL.png)
+Il modemè stato modificato agendo su tutta la banda del doppino(prima ne veniva usata una in meno, il resto era sprecata).
+
+<h4>IL MODEM DSL:</h4>
+
+- Converte i dati in segnali analogici ad alte frequenza;
+- Implementa il multiplexing(divisione dei dati telefonici dai dati Internet);
+- **3 Bande di Frequenza:**
+	- da 0 a 4KHz  -> Canale Telefonico
+	- da 4 a 50KHx -> Upstream ad alta velocità
+	- da 50 a 1MHz -> Download ad alta velocità
+
+**STANDARD DSL:**
+Definiti da ITU:
+-
 
 
 
