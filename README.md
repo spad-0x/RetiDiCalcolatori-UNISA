@@ -133,6 +133,15 @@ Linee su cui viagiano i dati. Sono mezzi fisici --> conduttori. Mezzi diversi ha
 
 <h3>DISPOSITIVI DI COMMUTAZIONE</H3>
 
+Permettono la comunicazione indiretta (collegamento tra dispositivi per mezzo di altri dispositivi intermediari come ad esempio i router)
+
+2 Categorie (entrambe smistano pacchetti sulla base dell'indirizzo di destinazione)
+
+* SWITCH:
+	* * Consente comunicazioni tra 2 nodi della stessa rete
+* ROUTER:
+	* * Smista i pacchetti tra nodi di rete diverse
+
 
 <h4>COME AVVIENE LA TRASMISSIONE</H4>
 
