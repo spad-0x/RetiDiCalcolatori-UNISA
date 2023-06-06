@@ -388,6 +388,70 @@ Se il pacchetto iinviato per ultimo è di tipo premium, viene eliminato il penul
 L'Amministratore di Rete deve evitare che capiti.
 Al momento dell'accensione del Router viene caricato un File dall'Amministratore di Rete e parte un protocollo che prevede che il Router si scambino informazini, quindi la tabella viene aggiornata dinamicamente, per ricalcolare prcorsi in casi di modifiche o guasti e in corso di congestione.
 
+<h3>FORMATO DEGLI INDIRIZZI</h3>
+
+É lo standard per tutti gli host collegati ad Internet. É una sequenza di 4 numeri decimali tra 0 e 255 separati da un punto. I 4 numeri sono la coversione in decimale di 4 byte.
+**Es.** 192.41.218.10
+Il router per seapere a chi mandare il pacchetto non ha bisogno di leggere tutto l'indirizzo.
+
+<h3>COMMUTAZIONE DI CIRCUITO</h3>
+
+Prevede un setup prima della comunicazione in modo che vengono allocate risorse proprietarie alla Rete.
+
+**VANTAGGI**
+- Congestione non verificate
+- Prestazioni massime
+
+**SVANTAGGI**
+- Se non viene usato un collegamento dal proprietario, non viene usato da nessun altro perchè il collegamento è esclusivo
+
+Il traffico viene gestito con un rifiuto del servizio
+
+**MULTIPLEXING**
+Un solo segnale non occupa tutta la larghezza di banda, quindi la larghezza di banda viene ripartita tra più circuiti.
+
+<h3>TDM(divisione in tempo)</h3>
+
+(X Segnali Digitali)
+
+![TDM](src/TDM.png)
+
+Ogni Utente trasmette per un tempo assegnato.
+
+<h4>ESERCIZIO:</h4>
+
+Trasforma un File di 640k bit da A a B su una Rete a Commutazione di Circuito
+- ogni collegamento ha una velocità di 1,536 Mbps a TDM con 24 Slot
+- costo si Setup del circuito 0,55
+
+/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/
+Ogni circuito ha velocità 1,536/24 Mbps = 64Kbps
+I dati viaggiano nel circuito come un flusso continuo.
+- NO store and Forward
+- No ritadi di accodamento e propagazione
+
+
+**T** = (640.000 bit)/(64 Kbps) + 0,55 = 10,55
+Il Ritardo è indipendente dalla lunughezza del circuito.
+
+
+<h3>STRATIFICAZIONE DI PROTOCOLLI</h3>
+
+Interntet è un Sistema estremamente complesso. La sua architettura deve essere organizzata per livelli così da permettere anche la descrizione e l'analisi del suo fuziionamento.
+L'**ARCHITETTURA DI RETE** è quindi un'Architettura a Livelli.
+Sono previste delle linee guida generali
+- Un'Architettura di Rete è un'Astrazione che descrive il processo di comunicazione tra 2 Entità
+	- É un insieme di strati(livelli);
+	- Ogni strato si occupa di un aspetto particolare della comunicazione;
+	- Gli strati sono organizzati gerarchicamente. Gli strati inferiori foriscono servizi, gli strati superiori li richiedono.
+
+- Esistono 2 tipi di Architettura di Rete:
+	- TCP/IP
+	- OSI
+**FOCUS ON: MODELLO OSI**
+
+
+
 
 
 
