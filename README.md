@@ -421,7 +421,7 @@ Ogni Utente trasmette per un tempo assegnato.
 <h2></h2>
 <h4>ESERCIZIO:</h4>
 
-Trasforma un File di 640k bit da A a B su una Rete a Commutazione di Circuito
+Trasforma un File di 640.000 bit da A a B su una Rete a Commutazione di Circuito
 - ogni collegamento ha una velocità di 1,536 Mbps a TDM con 24 Slot
 - costo si Setup del circuito 0,55
 
