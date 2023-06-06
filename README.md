@@ -469,18 +469,25 @@ OPEN TEST INTERCONNECTION. Gli utenti potevano interagire tra loro con protocoll
 	- Separazione dei Problemi.
 	- Garanzia di Interoperabilità.
 
-| Colonna 1 | Colonna 2 | Colonna 3 |
-| --------- | --------- | --------- |
-| Riga 1    | Dato 1    | Dato 2    |
-| Riga 2    | Dato 3    | Dato 4    |
 
 
-<h3>PROTOCOLLI</h3>
+<h3>MODELLO OSI:</h3>
 
+**Architettura a 7 livelli:**
 
-
-
-
+| 7º | APPLICAZONE   |
+|----|---------------|
+| 6º | PRESENTAZIONE |
+|----|---------------|
+| 5º |   SESSIONE    |
+|----|---------------| 
+| 4º |   TRASPORTO   |
+|----|---------------| 
+| 3º |     RETE      |
+|----|---------------| 
+| 2º |  COLLEGAMENTO |
+|----|---------------| 
+| 1º |    FISICO     | 
 
 
 
