@@ -425,6 +425,7 @@ Trasforma un File di 640k bit da A a B su una Rete a Commutazione di Circuito
 - costo si Setup del circuito 0,55
 
 /==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/==/
+
 Ogni circuito ha velocità 1,536/24 Mbps = 64Kbps
 I dati viaggiano nel circuito come un flusso continuo.
 - NO store and Forward
