@@ -421,7 +421,7 @@ Ogni Utente trasmette per un tempo assegnato.
 <h2></h2>
 <h4>ESERCIZIO:</h4>
 
-Trasforma un File di 640.000 bit da A a B su una Rete a Commutazione di Circuito
+Trasformare un File di 640.000 bit che va da A a B su una Rete a Commutazione di Circuito
 - ogni collegamento ha una velocità di 1,536 Mbps a TDM con 24 Slot
 - costo si Setup del circuito 0,55
 
@@ -450,7 +450,32 @@ Sono previste delle linee guida generali
 - Esistono 2 tipi di Architettura di Rete:
 	- TCP/IP
 	- OSI
+
 **FOCUS ON: MODELLO OSI**
+OPEN TEST INTERCONNECTION. Gli utenti potevano interagire tra loro con protocolli non proprietari(open). Quando è compreso sul mercato però non è stato acquistato da nessun utente poichè ormai tutti i dispositivi erano basati su TCP/IP. **É rimasto solo un modello di riferimento teorico.**
+
+<h3>INTERFACCE E LIVELLI:</h3>
+
+- Due livelli adiacenti interagiscono tramite un'interfaccia
+	- Livello inf. fornisce i servizi.
+	- L'interfaccia del servizio specifica come i servizi possono essere invocati.
+
+- L'implemetazione di ciascuno servizio interno al livello.
+	- NON infuenza l'interazione.
+	- Una modifica dell'implementazione non crea probeli alla interazione a patto che non si modifichi l'Interfaccia.
+
+- I benefici sono:
+	- Semplificazione del Progetto.
+	- Separazione dei Problemi.
+	- Garanzia di Interoperabilità.
+
+| Colonna 1 | Colonna 2 | Colonna 3 |
+| --------- | --------- | --------- |
+| Riga 1    | Dato 1    | Dato 2    |
+| Riga 2    | Dato 3    | Dato 4    |
+
+
+<h3>PROTOCOLLI</h3>
 
 
 
