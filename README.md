@@ -418,6 +418,7 @@ Un solo segnale non occupa tutta la larghezza di banda, quindi la larghezza di b
 
 Ogni Utente trasmette per un tempo assegnato.
 
+<h2></h2>
 <h4>ESERCIZIO:</h4>
 
 Trasforma un File di 640k bit da A a B su una Rete a Commutazione di Circuito
@@ -434,7 +435,7 @@ I dati viaggiano nel circuito come un flusso continuo.
 
 **T** = (640.000 bit)/(64 Kbps) + 0,55 = 10,55
 Il Ritardo è indipendente dalla lunughezza del circuito.
-
+<h2></h2>
 
 <h3>STRATIFICAZIONE DI PROTOCOLLI</h3>
 
