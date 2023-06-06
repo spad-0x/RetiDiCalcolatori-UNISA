@@ -474,7 +474,7 @@ OPEN TEST INTERCONNECTION. Gli utenti potevano interagire tra loro con protocoll
 <h3>MODELLO OSI:</h3>
 
 **Architettura a 7 livelli:**
-|    |               |
+
 |----|---------------|
 | 7º | APPLICAZONE   |
 | 6º | PRESENTAZIONE |
