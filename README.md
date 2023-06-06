@@ -476,17 +476,11 @@ OPEN TEST INTERCONNECTION. Gli utenti potevano interagire tra loro con protocoll
 **Architettura a 7 livelli:**
 
 | 7º | APPLICAZONE   |
-|----|---------------|
 | 6º | PRESENTAZIONE |
-|----|---------------|
 | 5º |   SESSIONE    |
-|----|---------------| 
-| 4º |   TRASPORTO   |
-|----|---------------| 
+| 4º |   TRASPORTO   | 
 | 3º |     RETE      |
-|----|---------------| 
 | 2º |  COLLEGAMENTO |
-|----|---------------| 
 | 1º |    FISICO     | 
 
 
